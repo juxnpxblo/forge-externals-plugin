@@ -15,6 +15,10 @@ class ForgeExternalsPlugin {
     this._includeDeps = options.includeDeps;
   }
 
+  get name() {
+    return "ForgeExternalsPlugin";
+  }
+
   init = (dir) => {
     this._dir = dir;
   };
